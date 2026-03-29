@@ -1,0 +1,49 @@
+{
+  "$schema": "https://opencode.ai/desktop-theme.json",
+  "name": "F5XC",
+  "id": "f5xc",
+  "light": {
+    "palette": {
+      "neutral": "#ffffff",
+      "ink": "#1a1a1a",
+      "primary": "#7b5bb6",
+      "accent": "#cc7722",
+      "success": "#4d8a0f",
+      "warning": "#b0851f",
+      "error": "#c4173e",
+      "info": "#318795",
+      "diffAdd": "#4d8a0f",
+      "diffDelete": "#c4173e"
+    },
+    "overrides": {
+      "syntax-comment": "#75715e",
+      "syntax-keyword": "#c4173e",
+      "syntax-string": "#b0851f",
+      "syntax-primitive": "#4d8a0f",
+      "syntax-property": "#318795",
+      "syntax-constant": "#7b5bb6"
+    }
+  },
+  "dark": {
+    "palette": {
+      "neutral": "#1a1a1a",
+      "ink": "#f8f8f2",
+      "primary": "#af87ff",
+      "accent": "#ff9933",
+      "success": "#a6e22e",
+      "warning": "#e6db74",
+      "error": "#f92672",
+      "info": "#66d9ef",
+      "diffAdd": "#a6e22e",
+      "diffDelete": "#f92672"
+    },
+    "overrides": {
+      "syntax-comment": "#75715e",
+      "syntax-keyword": "#f92672",
+      "syntax-string": "#e6db74",
+      "syntax-primitive": "#a6e22e",
+      "syntax-property": "#66d9ef",
+      "syntax-constant": "#ae81ff"
+    }
+  }
+}
