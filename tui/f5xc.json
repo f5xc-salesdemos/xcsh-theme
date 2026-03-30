@@ -1,237 +1,233 @@
 {
   "$schema": "https://opencode.ai/theme.json",
   "defs": {
-    "purple": "#af87ff",
-    "blue": "#3399ff",
-    "orange": "#ff9933",
-    "lightBlue": "#99ccff",
-    "teal": "#00cccc",
-    "profBlue": "#6a9bcc",
-    "fg": "#f8f8f2",
-    "muted": "#999999",
-    "subtle": "#505050",
-    "bg": "#1a1a1a",
-    "bgPanel": "#222222",
-    "bgElement": "#2c323e",
-    "bgUser": "#373737",
-    "monokaiPink": "#f92672",
-    "monokaiGreen": "#a6e22e",
-    "monokaiYellow": "#e6db74",
-    "monokaiCyan": "#66d9ef",
-    "monokaiPurple": "#ae81ff",
-    "monokaiComment": "#75715e",
-    "monokaiOrange": "#fd971f",
-    "ccError": "#ff6666",
-    "ccWarning": "#ffcc00",
-    "lightPurple": "#7b5bb6",
-    "lightBlue2": "#2277cc",
-    "lightOrange": "#cc7722",
-    "lightGreen": "#4d8a0f",
-    "lightRed": "#c4173e",
-    "lightYellow": "#b0851f",
-    "lightCyan": "#318795",
-    "lightMuted": "#666666",
-    "lightComment": "#75715e"
+    "f5Red": "#e4002b",
+    "f5RedL2": "#f06680",
+    "f5RedL3": "#a70020",
+    "tangerine": "#f29a36",
+    "tangerineL2": "#ffbd61",
+    "tangerineL3": "#a35700",
+    "river": "#0e41aa",
+    "riverL2": "#6e8dcc",
+    "riverL3": "#0b3180",
+    "jade": "#009639",
+    "jadeL2": "#66c088",
+    "jadeL3": "#00712b",
+    "eggplant": "#62228b",
+    "eggplantL2": "#9c59c9",
+    "eggplantL3": "#822cb8",
+    "bay": "#0072b0",
+    "bayL1": "#b2d7eb",
+    "bayL2": "#66afd7",
+    "bayL3": "#005c8d",
+    "whiteL1": "#faf9f7",
+    "whiteL2": "#f5f5f5",
+    "whiteL3": "#e6e6e6",
+    "whiteL4": "#cccccc",
+    "blackL1": "#999999",
+    "blackL2": "#666666",
+    "blackL3": "#343434",
+    "blackL4": "#222222"
   },
   "theme": {
     "primary": {
-      "dark": "purple",
-      "light": "lightPurple"
+      "dark": "eggplantL2",
+      "light": "eggplant"
     },
     "secondary": {
-      "dark": "profBlue",
-      "light": "lightBlue2"
+      "dark": "riverL2",
+      "light": "river"
     },
     "accent": {
-      "dark": "orange",
-      "light": "lightOrange"
+      "dark": "tangerine",
+      "light": "tangerineL3"
     },
     "error": {
-      "dark": "ccError",
-      "light": "lightRed"
+      "dark": "f5RedL2",
+      "light": "f5RedL3"
     },
     "warning": {
-      "dark": "ccWarning",
-      "light": "lightYellow"
+      "dark": "tangerine",
+      "light": "tangerineL3"
     },
     "success": {
-      "dark": "monokaiGreen",
-      "light": "lightGreen"
+      "dark": "jadeL2",
+      "light": "jadeL3"
     },
     "info": {
-      "dark": "lightBlue",
-      "light": "lightCyan"
+      "dark": "bayL1",
+      "light": "bayL3"
     },
     "text": {
-      "dark": "fg",
+      "dark": "whiteL1",
       "light": "#1a1a1a"
     },
     "textMuted": {
-      "dark": "muted",
-      "light": "lightMuted"
+      "dark": "blackL1",
+      "light": "blackL2"
     },
     "background": {
-      "dark": "bg",
+      "dark": "blackL4",
       "light": "#ffffff"
     },
     "backgroundPanel": {
-      "dark": "bgPanel",
-      "light": "#f5f5f5"
+      "dark": "blackL4",
+      "light": "whiteL2"
     },
     "backgroundElement": {
-      "dark": "bgElement",
-      "light": "#ebebeb"
+      "dark": "blackL3",
+      "light": "whiteL3"
     },
     "border": {
-      "dark": "subtle",
-      "light": "#cccccc"
+      "dark": "blackL2",
+      "light": "whiteL4"
     },
     "borderActive": {
-      "dark": "blue",
-      "light": "lightBlue2"
+      "dark": "bay",
+      "light": "bay"
     },
     "borderSubtle": {
-      "dark": "bgUser",
-      "light": "#e0e0e0"
+      "dark": "blackL3",
+      "light": "whiteL3"
     },
     "diffAdded": {
-      "dark": "monokaiGreen",
-      "light": "lightGreen"
+      "dark": "jadeL2",
+      "light": "jadeL3"
     },
     "diffRemoved": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "diffContext": {
-      "dark": "monokaiComment",
-      "light": "lightComment"
+      "dark": "blackL2",
+      "light": "blackL2"
     },
     "diffHunkHeader": {
-      "dark": "monokaiComment",
-      "light": "lightComment"
+      "dark": "blackL2",
+      "light": "blackL2"
     },
     "diffHighlightAdded": {
-      "dark": "monokaiGreen",
-      "light": "lightGreen"
+      "dark": "jadeL2",
+      "light": "jadeL3"
     },
     "diffHighlightRemoved": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "diffAddedBg": {
-      "dark": "#1a2e1a",
-      "light": "#e0ffe0"
+      "dark": "#0d2614",
+      "light": "#d5f0dc"
     },
     "diffRemovedBg": {
-      "dark": "#3a1a1a",
-      "light": "#ffe0e0"
+      "dark": "#2e0a0f",
+      "light": "#fce4e8"
     },
     "diffContextBg": {
-      "dark": "bgPanel",
-      "light": "#f5f5f5"
+      "dark": "blackL4",
+      "light": "whiteL2"
     },
     "diffLineNumber": {
-      "dark": "bgElement",
-      "light": "#cccccc"
+      "dark": "blackL3",
+      "light": "whiteL4"
     },
     "diffAddedLineNumberBg": {
-      "dark": "#1a2e1a",
-      "light": "#e0ffe0"
+      "dark": "#0d2614",
+      "light": "#c5e0cc"
     },
     "diffRemovedLineNumberBg": {
-      "dark": "#3a1a1a",
-      "light": "#ffe0e0"
+      "dark": "#2e0a0f",
+      "light": "#ecd4d8"
     },
     "markdownText": {
-      "dark": "fg",
+      "dark": "whiteL1",
       "light": "#1a1a1a"
     },
     "markdownHeading": {
-      "dark": "purple",
-      "light": "lightPurple"
+      "dark": "eggplantL2",
+      "light": "eggplant"
     },
     "markdownLink": {
-      "dark": "monokaiCyan",
-      "light": "lightCyan"
+      "dark": "bayL2",
+      "light": "bayL3"
     },
     "markdownLinkText": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "markdownCode": {
-      "dark": "monokaiGreen",
-      "light": "lightGreen"
+      "dark": "jadeL2",
+      "light": "jadeL3"
     },
     "markdownBlockQuote": {
-      "dark": "monokaiComment",
-      "light": "lightComment"
+      "dark": "blackL2",
+      "light": "blackL2"
     },
     "markdownEmph": {
-      "dark": "monokaiYellow",
-      "light": "lightYellow"
+      "dark": "tangerineL2",
+      "light": "tangerineL3"
     },
     "markdownStrong": {
-      "dark": "monokaiOrange",
-      "light": "lightOrange"
+      "dark": "tangerine",
+      "light": "tangerineL3"
     },
     "markdownHorizontalRule": {
-      "dark": "muted",
-      "light": "lightMuted"
+      "dark": "blackL1",
+      "light": "blackL2"
     },
     "markdownListItem": {
-      "dark": "monokaiCyan",
-      "light": "lightCyan"
+      "dark": "bayL2",
+      "light": "bayL3"
     },
     "markdownListEnumeration": {
-      "dark": "monokaiPurple",
-      "light": "lightPurple"
+      "dark": "eggplantL2",
+      "light": "eggplant"
     },
     "markdownImage": {
-      "dark": "monokaiCyan",
-      "light": "lightCyan"
+      "dark": "bayL2",
+      "light": "bayL3"
     },
     "markdownImageText": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "markdownCodeBlock": {
-      "dark": "fg",
+      "dark": "whiteL1",
       "light": "#1a1a1a"
     },
     "syntaxComment": {
-      "dark": "monokaiComment",
-      "light": "lightComment"
+      "dark": "blackL2",
+      "light": "blackL2"
     },
     "syntaxKeyword": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "syntaxFunction": {
-      "dark": "monokaiGreen",
-      "light": "lightGreen"
+      "dark": "jadeL2",
+      "light": "jadeL3"
     },
     "syntaxVariable": {
-      "dark": "fg",
+      "dark": "whiteL1",
       "light": "#1a1a1a"
     },
     "syntaxString": {
-      "dark": "monokaiYellow",
-      "light": "lightYellow"
+      "dark": "tangerineL2",
+      "light": "tangerineL3"
     },
     "syntaxNumber": {
-      "dark": "monokaiPurple",
-      "light": "lightPurple"
+      "dark": "eggplantL2",
+      "light": "eggplant"
     },
     "syntaxType": {
-      "dark": "monokaiCyan",
-      "light": "lightCyan"
+      "dark": "bayL2",
+      "light": "bayL3"
     },
     "syntaxOperator": {
-      "dark": "monokaiPink",
-      "light": "lightRed"
+      "dark": "f5Red",
+      "light": "f5RedL3"
     },
     "syntaxPunctuation": {
-      "dark": "fg",
+      "dark": "whiteL1",
       "light": "#1a1a1a"
     }
   }

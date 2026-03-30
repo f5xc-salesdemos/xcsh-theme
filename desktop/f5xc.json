@@ -6,44 +6,44 @@
     "palette": {
       "neutral": "#ffffff",
       "ink": "#1a1a1a",
-      "primary": "#7b5bb6",
-      "accent": "#cc7722",
-      "success": "#4d8a0f",
-      "warning": "#b0851f",
-      "error": "#c4173e",
-      "info": "#318795",
-      "diffAdd": "#4d8a0f",
-      "diffDelete": "#c4173e"
+      "primary": "#62228b",
+      "accent": "#a35700",
+      "success": "#00712b",
+      "warning": "#a35700",
+      "error": "#a70020",
+      "info": "#005c8d",
+      "diffAdd": "#00712b",
+      "diffDelete": "#a70020"
     },
     "overrides": {
-      "syntax-comment": "#75715e",
-      "syntax-keyword": "#c4173e",
-      "syntax-string": "#b0851f",
-      "syntax-primitive": "#4d8a0f",
-      "syntax-property": "#318795",
-      "syntax-constant": "#7b5bb6"
+      "syntax-comment": "#666666",
+      "syntax-keyword": "#a70020",
+      "syntax-string": "#a35700",
+      "syntax-primitive": "#00712b",
+      "syntax-property": "#005c8d",
+      "syntax-constant": "#62228b"
     }
   },
   "dark": {
     "palette": {
-      "neutral": "#1a1a1a",
-      "ink": "#f8f8f2",
-      "primary": "#af87ff",
-      "accent": "#ff9933",
-      "success": "#a6e22e",
-      "warning": "#e6db74",
-      "error": "#f92672",
-      "info": "#66d9ef",
-      "diffAdd": "#a6e22e",
-      "diffDelete": "#f92672"
+      "neutral": "#222222",
+      "ink": "#faf9f7",
+      "primary": "#9c59c9",
+      "accent": "#f29a36",
+      "success": "#66c088",
+      "warning": "#f29a36",
+      "error": "#f06680",
+      "info": "#66afd7",
+      "diffAdd": "#66c088",
+      "diffDelete": "#e4002b"
     },
     "overrides": {
-      "syntax-comment": "#75715e",
-      "syntax-keyword": "#f92672",
-      "syntax-string": "#e6db74",
-      "syntax-primitive": "#a6e22e",
-      "syntax-property": "#66d9ef",
-      "syntax-constant": "#ae81ff"
+      "syntax-comment": "#666666",
+      "syntax-keyword": "#e4002b",
+      "syntax-string": "#ffbd61",
+      "syntax-primitive": "#66c088",
+      "syntax-property": "#66afd7",
+      "syntax-constant": "#9c59c9"
     }
   }
 }
