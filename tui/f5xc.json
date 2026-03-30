@@ -27,7 +27,13 @@
     "blackL1": "#999999",
     "blackL2": "#666666",
     "blackL3": "#343434",
-    "blackL4": "#222222"
+    "blackL4": "#222222",
+    "darkPanelBg": "#22222260",
+    "darkElementBg": "#1a1a1a",
+    "darkMenuBg": "#222222cc",
+    "lightPanelBg": "#f5f5f560",
+    "lightElementBg": "#e6e6e6",
+    "lightMenuBg": "#ffffffcc"
   },
   "theme": {
     "primary": {
@@ -39,8 +45,8 @@
       "light": "river"
     },
     "accent": {
-      "dark": "tangerine",
-      "light": "tangerineL3"
+      "dark": "bayL2",
+      "light": "bayL3"
     },
     "error": {
       "dark": "f5RedL2",
@@ -67,16 +73,24 @@
       "light": "blackL2"
     },
     "background": {
-      "dark": "blackL4",
-      "light": "#ffffff"
+      "dark": "transparent",
+      "light": "transparent"
     },
     "backgroundPanel": {
-      "dark": "blackL4",
-      "light": "whiteL2"
+      "dark": "darkPanelBg",
+      "light": "lightPanelBg"
     },
     "backgroundElement": {
-      "dark": "blackL3",
-      "light": "whiteL3"
+      "dark": "darkElementBg",
+      "light": "lightElementBg"
+    },
+    "backgroundMenu": {
+      "dark": "darkMenuBg",
+      "light": "lightMenuBg"
+    },
+    "selectedListItemText": {
+      "dark": "#ffffff",
+      "light": "#1a1a1a"
     },
     "border": {
       "dark": "blackL2",
@@ -115,28 +129,28 @@
       "light": "f5RedL3"
     },
     "diffAddedBg": {
-      "dark": "#0d2614",
-      "light": "#d5f0dc"
+      "dark": "#0d261440",
+      "light": "#d5f0dc40"
     },
     "diffRemovedBg": {
-      "dark": "#2e0a0f",
-      "light": "#fce4e8"
+      "dark": "#2e0a0f40",
+      "light": "#fce4e840"
     },
     "diffContextBg": {
-      "dark": "blackL4",
-      "light": "whiteL2"
+      "dark": "transparent",
+      "light": "transparent"
     },
     "diffLineNumber": {
       "dark": "blackL3",
       "light": "whiteL4"
     },
     "diffAddedLineNumberBg": {
-      "dark": "#0d2614",
-      "light": "#c5e0cc"
+      "dark": "#0d261440",
+      "light": "#c5e0cc40"
     },
     "diffRemovedLineNumberBg": {
-      "dark": "#2e0a0f",
-      "light": "#ecd4d8"
+      "dark": "#2e0a0f40",
+      "light": "#ecd4d840"
     },
     "markdownText": {
       "dark": "whiteL1",
@@ -163,12 +177,12 @@
       "light": "blackL2"
     },
     "markdownEmph": {
-      "dark": "tangerineL2",
-      "light": "tangerineL3"
+      "dark": "#e5c07b",
+      "light": "#d97706"
     },
     "markdownStrong": {
-      "dark": "tangerine",
-      "light": "tangerineL3"
+      "dark": "whiteL1",
+      "light": "#1a1a1a"
     },
     "markdownHorizontalRule": {
       "dark": "blackL1",
