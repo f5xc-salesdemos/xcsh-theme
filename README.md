@@ -1,12 +1,26 @@
 # xcsh-theme
 
-F5XC theme for [OpenCode](https://github.com/opencode-ai/opencode) — Monokai Extended syntax highlighting with Claude Code-inspired UI chrome.
+F5XC theme for [OpenCode](https://github.com/opencode-ai/opencode) — Claude Code-style syntax highlighting with F5 brand UI chrome.
 
 ## Colors
 
-- **UI chrome**: Purple primary, blue secondary, orange accent — derived from Claude Code's dark-daltonized palette
-- **Syntax**: Monokai Extended (pink keywords, green functions, yellow strings, purple numbers, cyan types)
-- **Diffs**: Standard green/red conventions
+- **UI chrome**: F5 brand palette (eggplant primary, river secondary, tangerine accent, bay borders)
+- **Syntax**: Claude Code / One Dark style (purple keywords, blue functions, green strings, orange numbers, yellow types, cyan operators)
+- **Diffs**: Standard green added / red removed with subtle dark backgrounds
+
+### Syntax Palette (dark mode)
+
+| Token | Color | Hex |
+|-------|-------|-----|
+| Keywords | Purple | `#c678dd` |
+| Functions | Blue | `#61afef` |
+| Strings | Green | `#98c379` |
+| Numbers | Orange | `#d19a66` |
+| Types | Yellow | `#e5c07b` |
+| Variables | Coral | `#e06c75` |
+| Comments | Gray | `#5c6370` |
+| Operators | Cyan | `#56b6c2` |
+| Punctuation | Light gray | `#abb2bf` |
 
 ## Installation
 
